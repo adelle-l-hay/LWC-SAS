@@ -1680,89 +1680,6 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/adelle-l-hay/LWC-SAS/main/Inferno_english.xml?person_annotation_20250213143505326",
-	"type": "oa:Annotation",
-	"dcterms:created": "2025-02-13T14:35:05.326Z",
-	"dcterms:modified": "2025-02-13T14:35:05.326Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/adelle-l-hay",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Adelle Hay"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/adelle-l-hay/LWC-SAS/main/Inferno_english.xml?person_annotation_20250213143505326#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/adelle-l-hay/LWC-SAS/main/Inferno_english.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.6.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/adelle-l-hay/LWC-SAS/main/Inferno_english.xml?person_annotation_20250213143505326#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/lg[42]/l[2]/persName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person",
-			"cwrc:FictionalPerson"
-		],
-		"@id": "http://www.wikidata.org/entity/Q779406",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.6.0"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
 	"id": "https://raw.githubusercontent.com/adelle-l-hay/LWC-SAS/main/Inferno_english.xml?person_annotation_20250213143523024",
 	"type": "oa:Annotation",
 	"dcterms:created": "2025-02-13T14:35:23.024Z",
@@ -2078,7 +1995,7 @@
 
             <lg n="42">
                <l n="124">I saw <persName key="Camilla" ref="http://www.wikidata.org/entity/Q2843754" type="both">Camilla</persName> and <persName key="Penthesilea" ref="http://www.wikidata.org/entity/Q379828" cert="high">Penthesilea</persName></l>
-               <l n="125">On the other side, and saw the <persName key="Latinus" ref="http://www.wikidata.org/entity/Q779406" type="both">King Latinus</persName>,</l>
+               <l n="125">On the other side, and saw the King Latinus,</l>
                <l n="126">Who with <persName key="Lavinia" ref="http://www.wikidata.org/entity/Q1137364" cert="high">Lavinia</persName> his daughter sat;</l>
             </lg>
 
